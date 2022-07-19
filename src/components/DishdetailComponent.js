@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem, Modal, ModalHeader, ModalBody, Button, Label, Col, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
@@ -77,7 +78,7 @@ class CommentForm extends Component {
                         <Row className="form-group">
                            <Col md={12}>
                               <Label htmlFor="comment">Comment</Label>
-                              <Control.textarea model=".comment" id="comment" name="comment" rows="6" className="form-control" />                           
+                              <Control.textarea model=".comment" id="comment" name="comment" rows="6" className="form-control"/>                           
                            </Col>
                         </Row>
                         <Row className="form-group">
